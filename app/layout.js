@@ -1,15 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "@/components/section/navbar";
 import "./globals.css";
-
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
-});
+import Footer from "@/components/section/footer";
 
 export const metadata = {
     title: "Tanwirah",
@@ -19,11 +10,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-            >
-                {children}
+        <html>
+            <body className="antialiased">
+                <Navbar />
+                <main className="min-h-screen">{children}</main>
+                <Footer />
             </body>
         </html>
     );
