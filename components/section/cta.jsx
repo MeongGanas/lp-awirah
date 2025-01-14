@@ -15,12 +15,12 @@ export default function CTA() {
                 alt="shape"
             />
             <div className="container">
-                <div className="max-w-2xl mx-auto text-center space-y-6 md:space-y-8">
-                    <h1 className="font-[900] leading-[62.4px] tracking-[-0.96px] text-4xl md:text-5xl">
+                <div className="max-w-2xl mx-auto text-center">
+                    <h1 className="font-[900] leading-[62.4px] md:leading-[62.4px] tracking-[-0.96px] text-4xl md:text-5xl mb-4">
                         Jangan Tunda, Wujudkan Impian Anda{" "}
                         <span className="text-primary">Sekarang</span>!
                     </h1>
-                    <p className="leading-[30px] text-base md:text-[20px]">
+                    <p className="leading-[30px] text-base md:text-[20px] mb-8">
                         Kuota Terbatas! Daftar hari ini dan mulailah perjalanan
                         suci Anda{" "}
                         <span className="inline md:block">

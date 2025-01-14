@@ -50,7 +50,9 @@ export default function Navbar() {
             }`}
         >
             <div className="container flex items-center justify-between">
-                <img src="/images/logo.webp" alt="logo" width={140} />
+                <Link href={"/"}>
+                    <img src="/images/logo.webp" alt="logo" width={140} />
+                </Link>
 
                 <nav className="hidden md:block">
                     <ul className="flex gap-8 items-center">

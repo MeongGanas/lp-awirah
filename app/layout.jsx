@@ -1,6 +1,8 @@
 import Navbar from "@/components/section/navbar";
 import "./globals.css";
 import Footer from "@/components/section/footer";
+import Link from "next/link";
+import { ChevronUp } from "lucide-react";
 
 export const metadata = {
     title: "Tanwirah",
@@ -15,6 +17,12 @@ export default function RootLayout({ children }) {
                 <Navbar />
                 <main className="min-h-screen">{children}</main>
                 <Footer />
+                <Link
+                    href={"#top"}
+                    className="bg-white border-2 border-primary p-2 text-primary fixed right-5 bottom-5"
+                >
+                    <ChevronUp />
+                </Link>
             </body>
         </html>
     );
