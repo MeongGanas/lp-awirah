@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "../ui/sheet";
 import { Button } from "../ui/button";
 import { useEffect, useState } from "react";
+import ContactBtn from "../contactBtn";
 
 const links = [
     {
@@ -25,19 +26,27 @@ export default function Navbar() {
     const [onScroll, setOnScroll] = useState(false);
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
+        const handleScroll = () => {
             if (window.scrollY > 20) {
                 setOnScroll(true);
             } else {
                 setOnScroll(false);
             }
-        });
-    });
+        };
+
+        handleScroll();
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     return (
         <header
             className={`py-3 px-10 sticky top-0 z-50 transition-colors ${
-                onScroll ? "bg-secondary" : "bg-transparent"
+                onScroll ? "bg-[#EFEFEFD9] backdrop-blur-sm" : "bg-transparent"
             }`}
         >
             <div className="container flex items-center justify-between">
@@ -55,12 +64,7 @@ export default function Navbar() {
                                 </Link>
                             </li>
                         ))}
-                        <Link
-                            href={""}
-                            className="bg-primary px-5 text-sm py-3 rounded-[2px] text-white"
-                        >
-                            Hubungi Kami
-                        </Link>
+                        <ContactBtn />
                     </ul>
                 </nav>
 
@@ -83,12 +87,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                             ))}
-                            <Link
-                                href={""}
-                                className="bg-primary w-fit px-5 text-sm py-3 rounded-[2px] text-white"
-                            >
-                                Hubungi Kami
-                            </Link>
+                            <ContactBtn />
                         </ul>
                     </SheetContent>
                 </Sheet>

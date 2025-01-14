@@ -72,7 +72,16 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Satoshi", sans-serif;
     font-weight: 500;
+}
+
+.border-text {
+    -webkit-text-stroke: 1px #4a6c2f;
+    color: rgb(74, 108, 47, 0.2);
 }
