@@ -69,7 +69,7 @@ function ProdukCard({ name, paket }) {
                 <h1 className="text-xl font-[900] leading-[27px] tracking-[-0.72px]">
                     {name}
                 </h1>
-                <div className="h-24 space-y-2">
+                <div className="h-36 md:h-24 space-y-2">
                     {paket.map((p) => (
                         <p className="leading-[21.6px]">{p}</p>
                     ))}

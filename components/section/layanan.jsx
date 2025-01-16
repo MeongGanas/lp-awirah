@@ -79,13 +79,13 @@ export default function Layanan() {
 
 function LayananCard({ name, desc }) {
     return (
-        <div className="w-full rounded-sm overflow-hidden shadow-sm border">
+        <div className="w-full h-[340px] rounded-sm overflow-hidden shadow-sm border">
             <img src="/images/layanan.webp" className="w-full" alt="layanan" />
             <div className="p-5 space-y-2">
                 <h1 className="text-xl font-[900] leading-[27px] tracking-[-0.72px]">
                     {name}
                 </h1>
-                <p className="leading-[21.6px] h-20">{desc}</p>
+                <p className="leading-[21.6px] h-24 md:h-20">{desc}</p>
             </div>
         </div>
     );

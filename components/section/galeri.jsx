@@ -29,22 +29,22 @@ export default function Galeri() {
                         className="w-full"
                     >
                         <CarouselContent>
-                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
-                                <Gambar source={"/images/galeri.jpg"} />
+                            <CarouselItem className="gap-5 md:basis-1/3">
+                                <Gambar source={"/images/galeri1.webp"} />
                             </CarouselItem>
-                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
-                                <Gambar source={"/images/galeri2.jpg"} />
+                            <CarouselItem className="gap-5 md:basis-1/3">
+                                <Gambar source={"/images/galeri2.webp"} />
                             </CarouselItem>
-                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
-                                <Gambar source={"/images/galeri2.jpg"} />
+                            <CarouselItem className="gap-5 md:basis-1/3">
+                                <Gambar source={"/images/galeri2.webp"} />
                             </CarouselItem>
-                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                            <CarouselItem className="gap-5 md:basis-1/3">
                                 <Video source={"/videos/video1.mp4"} />
                             </CarouselItem>
-                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                            <CarouselItem className="gap-5 md:basis-1/3">
                                 <Video source={"/videos/video2.mp4"} />
                             </CarouselItem>
-                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                            <CarouselItem className="gap-5 md:basis-1/3">
                                 <Video source={"/videos/video3.mp4"} />
                             </CarouselItem>
                         </CarouselContent>
