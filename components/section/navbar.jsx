@@ -17,6 +17,10 @@ const links = [
         label: "Layanan",
     },
     {
+        href: "#produk",
+        label: "Produk",
+    },
+    {
         href: "#galeri",
         label: "Galeri",
     },

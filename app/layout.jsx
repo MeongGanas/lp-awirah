@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ChevronUp } from "lucide-react";
 
 export const metadata = {
-    title: "Tanwirah",
+    title: "AWIRAH",
     description:
         "Wujudkan ibadah suci yang khusyuk dan berkesan dengan layanan terbaik, fasilitas lengkap, serta bimbingan profesional dari keberangkatan hingga kembali ke tanah air.",
 };

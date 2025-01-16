@@ -20,25 +20,46 @@ export default function AboutSection() {
                                 Tentang Kami
                             </h2>
                             <p className="leading-[21.6px]">
-                                Tanwirah adalah perusahaan travel Umroh yang
-                                berdedikasi untuk memberikan pelayanan
-                                perjalanan ibadah ke Tanah Suci dengan standar
-                                kualitas terbaik. Kami memahami bahwa Umroh
-                                bukan hanya sekadar perjalanan, melainkan momen
-                                spiritual yang penuh makna.
+                                PT. Ambisigo Wisata Raudhotul Haramain (AWIRAH)
+                                Tour dan Travel Adalah anak Perusahaan Ambisigo
+                                yang bergerak pada bidang Usaha Agency Wisata
+                                Tour dan Travel termasuk menjadi Agen Marketing
+                                Travel Umroh dan Haji. Perusahaan AWIRAH
+                                bekerjasama dengan para travel untuk kami
+                                pasarkan kepada para konsumen,masyarakat dengan
+                                mensosialisasikan Keunggulan masing Travel
+                                sebagai bahan pertimbangan bagi masyarakat dalam
+                                menentukan pilihan sesuai kebutuhan,
                             </p>
                             <p className="leading-[21.6px]">
-                                Dengan tim profesional, fasilitas unggulan, dan
-                                bimbingan dari pembimbing ibadah yang
-                                berpengalaman, kami berkomitmen untuk memastikan
-                                setiap langkah perjalanan Anda berjalan lancar,
-                                aman, dan berkesan.
+                                Kami memberikan layanan berkualitas bagi para
+                                jamaah dalam menjalankan ibadah umroh dan haji,
+                                Melalui Travel biro perjalanan Haji, Umroh dan
+                                perjalanan wisata lainnya. Sebagai agen
+                                Marketing perjalanan kami bekerjasama dengan
+                                Perusahaan Travel Umroh dan Haji yang sudah
+                                berpengalaman, yang mengutamakan kepuasan dan
+                                kenyamanan setiap jamaah dalam Perjalanan
+                                Menunaikan Umroh dan Haji. PT. Awirah melakukan
+                                kerjasama yang intensif dengan Para Biro
+                                perjalanan wisata , Umroh dan Haji mengenai
+                                Pelayanan yang terbaik,memastikan keamanan dan
+                                kenyamanan jamaah. Dengan kata lain memberikan
+                                standar pelayanan terbaik sebelum, selama,
+                                maupun setelah perjalanan umroh, sehingga dapat
+                                membantu membangun kepercayaan masyarakat dan
+                                menarik lebih banyak pelanggan potensial.
                             </p>
                             <p className="leading-[21.6px]">
-                                Kepercayaan Anda adalah amanah bagi kami.
-                                Bersama Tanwirah, wujudkan impian ibadah suci
-                                Anda dengan penuh kenyamanan dan ketenangan
-                                hati.
+                                Dengan Team Marketing yang terampil dan
+                                berpengalaman, AWIRAH sebagai Agen Marketing
+                                Travel Umroh dan Haji memberikan Informasi
+                                melalui Biro Travel Mitra AWirah Paket Umroh dan
+                                Haji dengan perjalanan yang komprehensif namun
+                                terjangkau, mulai dari persiapan administrasi,
+                                akomodasi yang nyaman, transportasi yang aman
+                                dan nyaman, hingga pelayanan pendampingan selama
+                                perjalanan.
                             </p>
                         </div>
                         <div className="flex flex-col gap-6">
@@ -47,10 +68,9 @@ export default function AboutSection() {
                                 Visi Kami
                             </h2>
                             <p className="leading-[21.6px]">
-                                "Menjadi penyedia layanan perjalanan Umroh
-                                terpercaya yang memberikan kenyamanan, keamanan,
-                                dan pengalaman spiritual terbaik bagi setiap
-                                jamaah."
+                                Menjadi Agen Travel Terbaik dalam memberikan
+                                pelayanan dalam dalam bidang Pariwisata sesuai
+                                Syariah.
                             </p>
                         </div>
                         <div className="flex flex-col gap-6">
@@ -59,31 +79,22 @@ export default function AboutSection() {
                                 Misi Kami
                             </h2>
                             <ul className="list-disc space-y-2 pl-5">
+                                <li>Menjadi Agen Perjalanan Wisata</li>
                                 <li>
-                                    Memberikan Pelayanan Terbaik: Menyediakan
-                                    fasilitas berkualitas dan layanan
-                                    profesional untuk kenyamanan jamaah.
+                                    Menjadi Agen Marketing terbaik bagi biro
+                                    perjalanan Umroh dan Haji.
                                 </li>
                                 <li>
-                                    Pendampingan Ibadah yang Optimal:
-                                    Menyediakan bimbingan ibadah Umroh oleh
-                                    pembimbing berpengalaman dan kompeten.
+                                    Melayani customer dengan baik dan
+                                    profesional.
                                 </li>
                                 <li>
-                                    Transparansi dan Kepercayaan: Menjaga
-                                    kejujuran dan transparansi dalam setiap
-                                    proses keberangkatan hingga kepulangan.
+                                    Melakukan sosialisasi, Advokasi,
+                                    pendampingan kepada customer.
                                 </li>
                                 <li>
-                                    Fasilitas Nyaman dan Aman: Menjamin
-                                    akomodasi, transportasi, dan kebutuhan
-                                    jamaah selama perjalanan dengan standar
-                                    terbaik.
-                                </li>
-                                <li>
-                                    Komitmen Kepuasan Jamaah: Selalu berupaya
-                                    memberikan pengalaman Umroh yang khusyuk,
-                                    aman, dan berkesan.
+                                    Melakukan promosi secara aktif dan masif
+                                    secara Offline dan Online.
                                 </li>
                             </ul>
                         </div>

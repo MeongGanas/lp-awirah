@@ -29,18 +29,24 @@ export default function Galeri() {
                         className="w-full"
                     >
                         <CarouselContent>
-                            {Array.from({ length: 5 }).map((_, index) => (
-                                <CarouselItem
-                                    key={index}
-                                    className="basis-1/2 gap-5 md:basis-1/3 lg:basis-1/4"
-                                >
-                                    <img
-                                        src="/images/galeri.webp"
-                                        className="w-full"
-                                        alt="galeri"
-                                    />
-                                </CarouselItem>
-                            ))}
+                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                                <Gambar source={"/images/galeri.jpg"} />
+                            </CarouselItem>
+                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                                <Gambar source={"/images/galeri2.jpg"} />
+                            </CarouselItem>
+                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                                <Gambar source={"/images/galeri2.jpg"} />
+                            </CarouselItem>
+                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                                <Video source={"/videos/video1.mp4"} />
+                            </CarouselItem>
+                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                                <Video source={"/videos/video2.mp4"} />
+                            </CarouselItem>
+                            <CarouselItem className="basis-1/2 gap-5 md:basis-1/3">
+                                <Video source={"/videos/video3.mp4"} />
+                            </CarouselItem>
                         </CarouselContent>
                         <CarouselPrevious />
                         <CarouselNext />
@@ -48,5 +54,18 @@ export default function Galeri() {
                 </div>
             </div>
         </div>
+    );
+}
+
+function Gambar({ source }) {
+    return <img src={source} className="w-full" alt="galeri" />;
+}
+
+function Video({ source }) {
+    return (
+        <video className="border-2 w-full h-full aspect-square" controls>
+            <source src={source} type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
     );
 }
