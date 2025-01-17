@@ -80,7 +80,7 @@ export default function Layanan() {
 
 function LayananCard({ source, name, desc }) {
     return (
-        <div className="w-full h-[370px] rounded-sm overflow-hidden shadow-sm border">
+        <div className="w-full h-[410px] md:h-[370px] rounded-sm overflow-hidden shadow-sm border">
             <div
                 className="w-full h-52 bg-cover bg-center"
                 style={{
@@ -91,7 +91,7 @@ function LayananCard({ source, name, desc }) {
                 <h1 className="text-xl font-[900] leading-[27px] tracking-[-0.72px]">
                     {name}
                 </h1>
-                <p className="leading-[21.6px] h-32 md:h-20">{desc}</p>
+                <p className="leading-[21.6px]">{desc}</p>
             </div>
         </div>
     );
