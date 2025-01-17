@@ -80,7 +80,7 @@ function ProdukCard({ source, name, desc }) {
             className="w-full block rounded-sm overflow-hidden shadow-sm border"
         >
             <div
-                className="w-full h-[420px] bg-cover"
+                className="w-full h-[330px] md:h-[420px] bg-cover"
                 style={{
                     backgroundImage: `url(${source})`,
                 }}

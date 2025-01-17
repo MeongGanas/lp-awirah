@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <div className="bg-primary text-white px-10 py-6">
-            <div className="container flex justify-between flex-wrap space-y-5 sm:space-y-0">
+        <div className="bg-primary text-white py-6">
+            <div className="container px-5 flex justify-between flex-wrap space-y-5 sm:space-y-0">
                 <h4>Copyright © 2024 AmbisiGo | Powered by Celebesdigital</h4>
                 <ul className="flex items-center gap-5">
                     <li>
