@@ -49,8 +49,10 @@ export default function Navbar() {
 
     return (
         <header
-            className={`py-3 px-10 sticky top-0 z-50 transition-colors ${
-                onScroll ? "bg-[#EFEFEFD9] backdrop-blur-sm" : "bg-transparent"
+            className={`py-3 px-10 sticky top-0 z-50 transition-all duration-300 ${
+                onScroll
+                    ? "bg-[#EFEFEFD9] backdrop-blur-sm bg-opacity-100"
+                    : "bg-opacity-0"
             }`}
         >
             <div className="container flex items-center justify-between">

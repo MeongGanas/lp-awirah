@@ -28,6 +28,7 @@ const Carousel = React.forwardRef(
             plugins,
             className,
             children,
+            autoplay = false,
             ...props
         },
         ref
@@ -37,7 +38,7 @@ const Carousel = React.forwardRef(
                 ...opts,
                 axis: orientation === "horizontal" ? "x" : "y",
             },
-            [Autoplay()]
+            autoplay ? [Autoplay()] : []
         );
         const [canScrollPrev, setCanScrollPrev] = React.useState(false);
         const [canScrollNext, setCanScrollNext] = React.useState(false);

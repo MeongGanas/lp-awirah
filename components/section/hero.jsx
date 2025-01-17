@@ -3,14 +3,14 @@ import ContactBtn from "../contactBtn";
 
 export default function HeroSection() {
     return (
-        <div className="px-10 py-16 relative" id="top">
+        <div className="py-16 relative" id="top">
             <img
                 src="/images/hero.webp"
                 className="absolute -top-20 -z-10 left-0"
                 width={400}
                 alt="image"
             />
-            <div className="container">
+            <div className="container px-5">
                 <div className="grid lg:grid-cols-2">
                     <div className="flex flex-col justify-center max-w-xl gap-3">
                         <h1 className="font-[900] text-5xl leading-[64.4px] lg:text-6xl lg:leading-[74.4px] tracking-[-1.9px] text-header">

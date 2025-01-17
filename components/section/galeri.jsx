@@ -8,11 +8,38 @@ import {
     CarouselPrevious,
 } from "../ui/carousel";
 
+const data = [
+    {
+        type: "image",
+        source: "/images/galeri/galeri1.webp",
+    },
+    {
+        type: "image",
+        source: "/images/galeri/galeri2.webp",
+    },
+    {
+        type: "image",
+        source: "/images/galeri/galeri3.webp",
+    },
+    {
+        type: "video",
+        source: "/videos/video1.mp4",
+    },
+    {
+        type: "video",
+        source: "/videos/video2.mp4",
+    },
+    {
+        type: "video",
+        source: "/videos/video3.mp4",
+    },
+];
+
 export default function Galeri() {
     return (
         <div className="px-10 pt-32 pb-12" id="galeri">
             <div className="container space-y-5">
-                <h1 className="text-primary text-4xl font-[900] relative">
+                <h1 className="px-5 text-primary text-4xl font-[900] relative">
                     Galeri
                     <img
                         src="/images/Galeri_Text.webp"
@@ -29,24 +56,18 @@ export default function Galeri() {
                         className="w-full"
                     >
                         <CarouselContent>
-                            <CarouselItem className="gap-5 md:basis-1/3">
-                                <Gambar source={"/images/galeri1.webp"} />
-                            </CarouselItem>
-                            <CarouselItem className="gap-5 md:basis-1/3">
-                                <Gambar source={"/images/galeri2.webp"} />
-                            </CarouselItem>
-                            <CarouselItem className="gap-5 md:basis-1/3">
-                                <Gambar source={"/images/galeri2.webp"} />
-                            </CarouselItem>
-                            <CarouselItem className="gap-5 md:basis-1/3">
-                                <Video source={"/videos/video1.mp4"} />
-                            </CarouselItem>
-                            <CarouselItem className="gap-5 md:basis-1/3">
-                                <Video source={"/videos/video2.mp4"} />
-                            </CarouselItem>
-                            <CarouselItem className="gap-5 md:basis-1/3">
-                                <Video source={"/videos/video3.mp4"} />
-                            </CarouselItem>
+                            {data.map((galeri, index) => (
+                                <CarouselItem
+                                    key={index}
+                                    className="gap-5 md:basis-1/3"
+                                >
+                                    {galeri.type === "image" ? (
+                                        <Gambar source={galeri.source} />
+                                    ) : (
+                                        <Video source={galeri.source} />
+                                    )}
+                                </CarouselItem>
+                            ))}
                         </CarouselContent>
                         <CarouselPrevious />
                         <CarouselNext />

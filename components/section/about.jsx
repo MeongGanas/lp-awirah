@@ -1,7 +1,7 @@
 export default function AboutSection() {
     return (
-        <div className="px-10 pt-20 pb-12" id="tentang">
-            <div className="container">
+        <div className="pt-20 pb-12" id="tentang">
+            <div className="container px-5">
                 <div className="grid lg:grid-cols-2">
                     <div className="lg:pt-10 lg:pr-10">
                         <video
