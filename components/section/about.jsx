@@ -26,10 +26,11 @@ export default function AboutSection() {
                                 Tour dan Travel termasuk menjadi Agen Marketing
                                 Travel Umroh dan Haji. Perusahaan AWIRAH
                                 bekerjasama dengan para travel untuk kami
-                                pasarkan kepada para konsumen,masyarakat dengan
-                                mensosialisasikan Keunggulan masing Travel
-                                sebagai bahan pertimbangan bagi masyarakat dalam
-                                menentukan pilihan sesuai kebutuhan,
+                                pasarkan kepada para konsumen, masyarakat dengan
+                                mensosialisasikan keunggulan masing-masing
+                                Travel sebagai bahan pertimbangan bagi
+                                masyarakat dalam menentukan pilihan sesuai
+                                kebutuhan,
                             </p>
                             <p className="leading-[21.6px]">
                                 Kami memberikan layanan berkualitas bagi para

@@ -11,22 +11,32 @@ const data = [
     {
         source: "/images/produk/umroh_tanur.webp",
         name: "🕋 UMROH AWAL RAMADHAN BERSAMA TANUR MUTHMAINNA",
-        desc: "Harga mulai dari  Rp. 34,5 Juta",
-    },
-    {
-        source: "/images/produk/umroh_full.webp",
-        name: "🕋 UMROH FULL RAMADHAN BERSAMA MEDIA WISATA",
-        desc: "Harga mulai dari Rp. 56,5 Juta",
-    },
-    {
-        source: "/images/produk/feb_media.webp",
-        name: "🕋 UMROH AWAL RAMADHAN BERSAMA MEDIA WISATA",
-        desc: "Harga mulai dari Rp. 33,5 Juta",
+        desc: "Harga mulai dari  Rp. 34,500,000",
     },
     {
         source: "/images/produk/akhir_tanur.webp",
         name: "🕋 UMROH AKHIR RAMADHAN BERSAMA TANUR MUTHMAINNA",
-        desc: "Harga mulai dari Rp. 36,750 Juta",
+        desc: "Harga mulai dari Rp. 36,750,000",
+    },
+    {
+        source: "/images/produk/full_tanur.webp",
+        name: "🕋 UMROH FULL RAMADHAN BERSAMA TANUR MUTHMAINNA",
+        desc: "Harga mulai dari Rp. 43,950,000",
+    },
+    {
+        source: "/images/produk/feb_media.webp",
+        name: "🕋 UMROH AWAL RAMADHAN BERSAMA MEDIA WISATA",
+        desc: "Harga mulai dari Rp. 33,500,000",
+    },
+    {
+        source: "/images/produk/akhir_media.webp",
+        name: "🕋 UMROH AKHIR RAMADHAN BERSAMA MEDIA WISATA",
+        desc: "Harga mulai dari Rp. 46,700,000",
+    },
+    {
+        source: "/images/produk/umroh_full.webp",
+        name: "🕋 UMROH FULL RAMADHAN BERSAMA MEDIA WISATA",
+        desc: "Harga mulai dari Rp. 56,500,000",
     },
 ];
 
@@ -80,7 +90,7 @@ function ProdukCard({ source, name, desc }) {
             className="w-full block rounded-sm overflow-hidden shadow-sm border"
         >
             <div
-                className="w-full h-[330px] md:h-[420px] bg-cover"
+                className="w-full h-[330px] md:h-[420px] bg-cover bg-clip-border"
                 style={{
                     backgroundImage: `url(${source})`,
                 }}
