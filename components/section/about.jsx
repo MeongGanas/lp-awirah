@@ -4,11 +4,7 @@ export default function AboutSection() {
             <div className="container px-5">
                 <div className="grid lg:grid-cols-2">
                     <div className="lg:pt-10 lg:pr-10">
-                        <video
-                            className="w-full lg:sticky lg:top-32"
-                            controls
-                            autoPlay
-                        >
+                        <video className="w-full" controls autoPlay>
                             <source src="/videos/video.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
