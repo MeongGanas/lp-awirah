@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Linkedin, Twitter, Youtube } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -8,28 +8,36 @@ export default function Footer() {
                 <h4>Copyright © 2024 AmbisiGo | Powered by Celebesdigital</h4>
                 <ul className="flex items-center gap-5">
                     <li>
-                        <Link href={""}>
+                        <Link href={"https://www.instagram.com/ambisigo/"}>
                             <img src="/icons/instagram.svg" alt="icon" />
                         </Link>
                     </li>
                     <li>
-                        <Link href={""}>
-                            <img src="/icons/linkedin.svg" alt="icon" />
+                        <Link href={"https://x.com/PTAmbisigo"}>
+                            <Twitter className="w-4 h-4" />
                         </Link>
                     </li>
                     <li>
-                        <Link href={""}>
+                        <Link
+                            href={
+                                "https://web.facebook.com/profile.php?id=100089241637508"
+                            }
+                        >
                             <img src="/icons/meta.svg" alt="icon" />
                         </Link>
                     </li>
                     <li>
-                        <Link href={""}>
+                        <Link href={"https://www.tiktok.com/@ambisigo"}>
                             <img src="/icons/tiktok.svg" alt="icon" />
                         </Link>
                     </li>
                     <li>
-                        <Link href={""}>
-                            <img src="/icons/youtube.svg" alt="icon" />
+                        <Link href={"https://web.telegram.org/a/#6085850377"}>
+                            <img
+                                src="/icons/telegram.svg"
+                                width={20}
+                                alt="icon"
+                            />
                         </Link>
                     </li>
                 </ul>
